@@ -2,6 +2,7 @@ import './App.css';
 import TopMenu from "./TopMenu";
 import Box from "@mui/material/Box";
 import ProductsList from "./ProductsList";
+import BottomMenu from "./BottomMenu";
 const products = [
     {
         id: 1,
@@ -38,6 +39,7 @@ function App() {
             <ProductsList products={products}/>
         </div>
       </div>
+      <BottomMenu />
       </Box>
   );
 }
