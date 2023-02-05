@@ -1,0 +1,36 @@
+import React, {useState} from 'react';
+import Button from '@mui/material/Button';
+import Modal from '@mui/material/Modal';
+
+const ProductComponent = ({ image, name, price, description }) => {
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const handleModalOpen = () => {
+        setModalOpen(true);
+    };
+
+    const handleModalClose = () => {
+        setModalOpen(false);
+    };
+
+    return (
+        <div style={{ width: '200px', height: '300px', margin: '16px', border: '1px solid gray' }}>
+            <img src={image} alt={name} style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
+            <div style={{ padding: '16px' }}>
+                <div>{name}</div>
+                <div style={{ fontWeight: 'bold' }}>{price}</div>
+                <Button variant="contained" color="primary" onClick={handleModalOpen}>
+                    info
+                </Button>
+            </div>
+            <Modal open={modalOpen} onClose={handleModalClose}>
+                <div style={{ width: '400px', height: '200px', margin: 'auto', padding: '32px', backgroundColor: 'white' }}>
+                    <h2>{name}</h2>
+                    <p>{description}</p>
+                </div>
+            </Modal>
+        </div>
+    );
+};
+
+export default ProductComponent;
