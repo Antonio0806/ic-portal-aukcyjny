@@ -1,19 +1,17 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
-export default function TopMenu() {
+const TopMenu = () => {
+
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <Toolbar>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Przegląd obiektów aukcji na wernisażu
-                    </Typography>
-                </Toolbar>
-            </AppBar>
-        </Box>
+        <div style={{
+            backgroundColor: '#7CEAED',
+            padding: '16px',
+            boxShadow: '0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)'
+        }}>
+            <Typography variant="h6">Wernisaż "Pokój Pokoju" - Katalog obrazów</Typography>
+        </div>
     );
-}
+};
+
+export default TopMenu;

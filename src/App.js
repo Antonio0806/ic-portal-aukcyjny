@@ -7,7 +7,7 @@ const products = [
     {
         id: 1,
         name: 'Product 1',
-        image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ditdXPVVQ8FN87MLTGMbqQHaFf%26pid%3DApi&f=1&ipt=8c6fd9a972fa6a10253bc875937f8d3dd7df2d9b8343053d66ad7404c42a2f27&ipo=images',
+        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEBCAMAAAD1kWivAAADAFBMVEWysrL5nCYYGBj7',
         price: '$199',
         description: 'test',
     },
