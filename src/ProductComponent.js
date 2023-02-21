@@ -14,19 +14,20 @@ const ProductComponent = ({ image, name, price, description }) => {
     };
 
     return (
-        <div style={{ width: '200px', height: '300px', margin: '16px', border: '1px solid gray' }}>
+        <div style={{ width: '200px', height: '325px', margin: '16px', border: '1px solid gray' }}>
             <img src={image} alt={name} style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
             <div style={{ padding: '16px' }}>
                 <div>{name}</div>
                 <div style={{ fontWeight: 'bold' }}>{price}</div>
                 <Button variant="contained" color="primary" onClick={handleModalOpen}>
-                    info
+                    Info
                 </Button>
             </div>
             <Modal open={modalOpen} onClose={handleModalClose}>
-                <div style={{ width: '400px', height: '200px', margin: 'auto', padding: '32px', backgroundColor: 'white' }}>
+                <div style={{ width: 'fit-content', height: 'fit-content', margin: 'auto', padding: '32px', backgroundColor: 'white' }}>
                     <h2>{name}</h2>
                     <p>{description}</p>
+                    <h5>Cena wywoławcza: {price}</h5>
                 </div>
             </Modal>
         </div>
