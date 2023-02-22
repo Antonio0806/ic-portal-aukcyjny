@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Portal "Aukcyjny" stworzony na potrzeby akcji "Pokój Pokoju" aby dostac się na IC
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

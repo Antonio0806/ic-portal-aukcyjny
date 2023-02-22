@@ -4,15 +4,12 @@ import Modal from '@mui/material/Modal';
 
 const ProductComponent = ({ image, name, price, description }) => {
     const [modalOpen, setModalOpen] = useState(false);
-
     const handleModalOpen = () => {
         setModalOpen(true);
     };
-
     const handleModalClose = () => {
         setModalOpen(false);
     };
-
     return (
         <div style={{ width: '200px', height: '325px', margin: '16px', border: '1px solid gray' }}>
             <img src={image} alt={name} style={{ width: '100%', height: '60%', objectFit: 'cover' }} />

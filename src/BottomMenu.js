@@ -3,6 +3,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import IconButton from '@mui/material/IconButton';
 import InstagramIcon from '@mui/icons-material/Instagram'
+import { ReactComponent as FeniksLogo } from './feniks.svg';
+import { ReactComponent as PokojLogo } from './logo.svg';
+
 const BottonMenu = () => (
     <div style={{
         display: 'flex',
@@ -27,7 +30,7 @@ const BottonMenu = () => (
                 <InstagramIcon />
             </IconButton>
         </div>
-        <div>&copy; 2023 234WDW Feniks</div>
+        <div style={{ display:"inline-block", float:"left", width:"85px", height:"50px" }}> <FeniksLogo /> </div>
     </div>
 );
 
