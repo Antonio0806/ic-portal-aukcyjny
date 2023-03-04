@@ -1,4 +1,4 @@
-# Portal "Aukcyjny" stworzony na potrzeby akcji "Pokój Pokoju" aby dostac się na IC
+# Portal "Aukcyjny" stworzony na potrzeby akcji "Pokój Pokoju"
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
