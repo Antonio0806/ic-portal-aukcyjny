@@ -70,15 +70,6 @@ const products = [
         description: 'Obrazek przedstawia pole czerwonych maków. Z pola wyczuwa się spokój i wdzięk. Te maki można znaleźć wszędzie, zwłaszcza w domu w Ukrainie.'
     },
     {
-        id: 10,
-        name: 'Czego brakuje',
-        image: '',
-        price: '50 PLN',
-        author: 'Sylwia Adamczuk',
-        author_description: '',
-        description: ''
-    },
-    {
         id: 13,
         name: 'Krajobraz wyobraźni',
         image: 'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/1.%20krajobraz-wyobra%C5%BAni_digital-collage_.jpg?raw=true',
@@ -153,11 +144,11 @@ const products = [
     {
         id:21,
         name: 'Czego brakuje',
-        image: 'https://raw.githubusercontent.com/Antonio0806/temporary-files/8757418fdb7a0abac542dbac715d847fc67e8cb9/SylwiaAdamczuk.jpg',
+        image: 'https://github.com/Antonio0806/temporary-files/blob/8757418fdb7a0abac542dbac715d847fc67e8cb9/SylwiaAdamczuk.jpg?raw=true',
         price: '80 PLN',
         author: 'Sylwia Adamczuk',
-        author_description: 'a',
-        description: 'a'
+        author_description: 'Na co dzień prowadzi szkolenia z emisji głosu, świadomego oddechu i pozytywnej komunikacji, a ponadto znajduje przestrzeń do zabawy z kolorami na płótnie. Swoje prace traktuje bardzo osobiście - każdy ma swój numer, certyfikat i historię. Wobec tego, nabywca obrazu będzie poproszony o zrobienie sobie zdjęcia na pamiątkę dla autorki pracy.',
+        description: 'Płótno, akryl'
     },
     {
         id:22,
@@ -187,6 +178,7 @@ const products = [
         description: 'Praca wykonana w technice kolażu, stworzona w zeszłym roku krótko po wybuchu wojny na Ukrainie.'
     }
 ];
+
 
 
 
