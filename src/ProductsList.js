@@ -11,7 +11,10 @@ const ProductsList = ({ products }) => {
                     name={product.name}
                     price={product.price}
                     description={product.description}
+                    author={product.author}
+                    author_description={product.author_description}
                 />
+
             ))}
         </div>
     );
