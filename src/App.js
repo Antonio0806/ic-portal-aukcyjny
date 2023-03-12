@@ -152,7 +152,7 @@ const products = [
     },
     {
         id:22,
-        name: 'Dom jes tam gdzie serce',
+        name: 'Dom jest tam gdzie serce',
         image: 'https://github.com/Antonio0806/temporary-files/blob/8757418fdb7a0abac542dbac715d847fc67e8cb9/olena-kulish.jpeg?raw=true',
         price: '80 PLN',
         author: 'Olena Kulish',
@@ -171,7 +171,7 @@ const products = [
     {
         id:24,
         name: 'bez tytułu',
-        price: '99 PLN - podlega zmianie',
+        price: '100 PLN',
         image: 'https://github.com/Antonio0806/temporary-files/blob/8757418fdb7a0abac542dbac715d847fc67e8cb9/maggyback.jpg?raw=true',
         author: 'MaggyBack (Magdalena Hasenbeck)',
         author_description: 'Arteterapeutka, artystka kolażu analogowego i instruktorka prowadząca od wielu lat warsztaty kolażu. Obecnie głownie w Warszawie na Ursynowie i online.',
