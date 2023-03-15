@@ -25,7 +25,7 @@ const ProductComponent = ({ image, name, price, description, author, author_desc
                     <h2>{name}</h2>
                     <p>{description}</p>
 
-                    <h5>Autor: {author}</h5>
+                    <h5>Autor/ka: {author}</h5>
                     <p>{author_description}</p>
                     <h5>Cena wywoławcza: {price}</h5>
                     <img src={image} alt={name} style={{width: '350px', height: '350px', border: '1px solid gray'}} />
