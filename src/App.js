@@ -180,7 +180,7 @@ const products = [
     {
         id:25,
         name: 'Moja dłuższa chwila',
-        price: '50',
+        price: '50 PLN',
         image:'',
         author: 'Martyna Bekas',
         author_description: 'Uczennica Państwowego Liceum Sztuk Plastycznych. Interesuję się malarstwem tak naprawdę od najmłodszych lat, już w młodszych klasach podstawówki ciągnęło mnie do malowania. Od zawsze fascynowały mnie barwy mnie otaczające (mimo, że zawsze ubieram się na czarno). ',
@@ -189,7 +189,7 @@ const products = [
     {
         id:26,
         name: 'Dyptyk (nie)czysto emocjonalny',
-        price: '80',
+        price: '80 PLN',
         image:'https://github.com/Antonio0806/temporary-files/blob/febebb02c174c826f32c6959519a976ae95b0f02/dyptyk%20nieczysto%20emo.png?raw=true',
         author: 'Agnieszka Odziemkowska',
         author_description: 'Dyplomantka na Wydziale Wzornictwa warszawskiej ASP. Na codzień zajmuje się projektowaniem graficznym i projektowaniem produktu, gdzie najważniejsza jest dla niej radykalna empatia wobec użytkowników i użytkowniczek. Malarstwo traktuje jako bezpieczną przestrzenią, gdzie panuje pełna swoboda i brak projektowej dyscypliny. W swoich pracach balansuje na granicy abstrakcji i realizmu, eksperymentując ze strukturą obrazu i techniką malarską. ',
@@ -198,7 +198,7 @@ const products = [
     {
         id:27,
         name: 'Łódź',
-        price: '50',
+        price: '50 PLN',
         image:'https://github.com/Antonio0806/temporary-files/blob/febebb02c174c826f32c6959519a976ae95b0f02/%C5%81%C3%B3d%C5%BA.jpg?raw=true',
         author: 'Siliakova Maryna',
         author_description: 'Urodzona w 1992 roku w Doniecku w Ukrainie, do Polski przeprowadziła się w 2017 roku. Z wykształcenia chemiczka, w Warszawie postanowiła się przekwalifikować - obecnie jest absolwentką projektowania graficznego Społecznej Akademii Nauk. Artystka tworzy zarówno kolaże cyfrowe, jak i analogowe oraz chętnie dzieli się zdobytą wiedzą z otoczeniem. Jej prace były wyróżnianie w wielu konkursach krajowych i międzynarodowych.',
@@ -207,23 +207,33 @@ const products = [
     {
         id:28,
         name: 'Mały Elvis',
-        price: '50',
+        price: '60 PLN',
         image:'https://github.com/Antonio0806/temporary-files/blob/febebb02c174c826f32c6959519a976ae95b0f02/elvis-8.png?raw=true',
         author: 'Ignacy Kamiński',
         author_description: 'Przyjaciel i entuzjasta działalności harcerskiej.',
-        description: 'Wymiary: 18 x 24 cm'
+        description: 'W1ymiary: 18 x 24 cm'
     },
     {
         id:29,
         name: 'Portret charakternego obywatela Warszawy',
-        price: '50',
+        price: '100 PLN',
         image:'https://github.com/Antonio0806/temporary-files/blob/febebb02c174c826f32c6959519a976ae95b0f02/Portret%20charakternego.jpeg?raw=true',
         author: 'Ignacy Kamiński',
         author_description: 'Przyjaciel i entuzjasta działalności harcerskiej.',
         description: 'Wymiary: 18 x 24 cm'
     },
+    {
+        id:30,
+        name: 'Nie ma fal',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/333772637_1634777446961063_3616130454932849194_n.jpg?raw=true',
+        author: 'Nina Brodowska',
+        author_description: 'Uczennica XV Liceum Ogólnokształcącego z Oddziałami Dwujęzycznymi im. Narcyzy Żmichowskiej oraz funkcyjna 234 WDW Feniks. Kocha żaby.',
+        description: 'Spoiler alert: są fale'
+    },
 
 ];
+
 
 
 
