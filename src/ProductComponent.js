@@ -28,7 +28,6 @@ const ProductComponent = ({ image, name, price, description, author, author_desc
                     <h5>Autor/ka: {author}</h5>
                     <p>{author_description}</p>
                     <h5>Cena wywoławcza: {price}</h5>
-                    <img src={image} alt={name} style={{width: '350px', height: '350px', border: '1px solid gray'}} />
                 </div>
             </Modal>
         </div>
