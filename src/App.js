@@ -181,7 +181,7 @@ const products = [
         id:25,
         name: 'Moja dłuższa chwila',
         price: '50 PLN',
-        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/335075782_1348523906001411_5569902063945686180_n.jpg?raw=true',
+        image:'',
         author: 'Martyna Bekas',
         author_description: 'Uczennica Państwowego Liceum Sztuk Plastycznych. Interesuję się malarstwem tak naprawdę od najmłodszych lat, już w młodszych klasach podstawówki ciągnęło mnie do malowania. Od zawsze fascynowały mnie barwy mnie otaczające (mimo, że zawsze ubieram się na czarno). ',
         description: 'Od autorki: Obraz przedstawia martwą naturę ułożoną przeze mnie z moich ulubionych przedmiotów do malowania. To co namalowałam nie jest czymś głębokim, nie chcę żeby było. Jednak to czego pragnę to to, żeby odbiorca patrzył na pracę z pewnym spokojem i żeby dostrzegł jaką mi przyjemność sprawiła. Sama czynność malowania jest dla mnie ważna - każde pociągnięcie pędzlem przemyślane a kolor dobrany. Namalowanie mi jej zajęło mi dłuższą chwilę'
@@ -231,8 +231,72 @@ const products = [
         author_description: 'Uczennica XV Liceum Ogólnokształcącego z Oddziałami Dwujęzycznymi im. Narcyzy Żmichowskiej oraz funkcyjna 234 WDW Feniks. Kocha żaby.',
         description: 'Spoiler alert: są fale'
     },
+    {
+        id: 31,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8643%20(1).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
+    {
+        id: 32,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8648%20(1).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
+    {
+        id: 33,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8652%20(1).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
+    {
+        id: 34,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8655%20(2).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
+    {
+        id: 35,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8658%20(1).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
+    {
+        id: 36,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8661%20(1).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
+    {
+        id: 37,
+        name: 'Okrągła abstrakcja',
+        price: '30 PLN',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/IMG_8663%20(1).jpg?raw=true',
+        author: 'Członkowie i członkinie 234 Warszawskiej Drużyny Harcerskiej Forteca',
+        author_description: '',
+        description: 'Praca przygotowana metodą pouringu.'
+    },
 
 ];
+
 
 
 
