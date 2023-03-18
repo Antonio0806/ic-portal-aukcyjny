@@ -181,7 +181,7 @@ const products = [
         id:25,
         name: 'Moja dłuższa chwila',
         price: '50 PLN',
-        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/335075782_1348523906001411_5569902063945686180_n.jpg',
+        image:'https://github.com/Antonio0806/temporary-files/blob/ic-portal-aukcyjny/335075782_1348523906001411_5569902063945686180_n.jpg?raw=true',
         author: 'Martyna Bekas',
         author_description: 'Uczennica Państwowego Liceum Sztuk Plastycznych. Interesuję się malarstwem tak naprawdę od najmłodszych lat, już w młodszych klasach podstawówki ciągnęło mnie do malowania. Od zawsze fascynowały mnie barwy mnie otaczające (mimo, że zawsze ubieram się na czarno). ',
         description: 'Od autorki: Obraz przedstawia martwą naturę ułożoną przeze mnie z moich ulubionych przedmiotów do malowania. To co namalowałam nie jest czymś głębokim, nie chcę żeby było. Jednak to czego pragnę to to, żeby odbiorca patrzył na pracę z pewnym spokojem i żeby dostrzegł jaką mi przyjemność sprawiła. Sama czynność malowania jest dla mnie ważna - każde pociągnięcie pędzlem przemyślane a kolor dobrany. Namalowanie mi jej zajęło mi dłuższą chwilę'
